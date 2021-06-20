@@ -1,0 +1,48 @@
+{
+  "name": "sample-web-app",
+  "version": "1.0.0",
+  "author": "Sumanth Kanakala",
+  "description": "A simple Web App using amplify auth, api, ant-d ui components",
+  "private": true,
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/jest": "24.0.23",
+    "@types/node": "12.12.9",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/styled-components": "^4.4.0",
+    "antd": "^3.25.2",
+    "aws-amplify": "^1.2.4",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.29.1",
+    "password-validator": "^5.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1",
+    "typescript": "3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
